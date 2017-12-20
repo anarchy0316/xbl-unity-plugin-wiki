@@ -1,0 +1,1 @@
+Achievement is a system-wide mechanism for directing and rewarding users' in-game actions in a consistent manner across all games. If you are not familiar with achievements, please see [Achievements documents](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/achievements-2017/achievements).
