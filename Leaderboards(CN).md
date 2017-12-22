@@ -13,7 +13,7 @@ Xbox Live Unity plugin包含两个 leaderboard 的 prefab:
 
 * LeaderboardEntry: 一个表示一单行 leaderboard 的 object.
 
-你可以将一个 **Leaderboard** prefab 拖拽进场景. 在 Unity Inspector 中, 您可以设置以下 attributes:
+您可以将一个 **Leaderboard** prefab 拖拽进场景. 在 Unity Inspector 中, 您可以设置以下 attributes:
 
 * Stat: 此 leaderboard 相关联的 stat gameobject.
 * Leaderboard Type: 结果应该是 leaderboard entries 返回的结果的范围。

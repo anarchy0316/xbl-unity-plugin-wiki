@@ -1,7 +1,7 @@
 这篇文章讲述的是在 Unity 中设置 Xbox Live plugin 的详细流程
 ## 首先要做的工作
 
-在顺利使用 Unity 插件前你要完成以下步骤:
+在顺利使用 Unity 插件前您要完成以下步骤:
 1. **[[Create a Xbox Live enabled title|Pre-coding Preparation]]**.
 2. 安装 **[Windows 10 Anniversary Update](https://microsoft.com/windows)** 或者更新版本的 Windows
 3. **[Unity](https://store.unity.com/)** 版本 **2017.1p5** (or newer), 或 **2017.2.0f3** (or newer) with **Windows Store .NET Scripting Backend** 或 **Windows Store IL2CPP Scripting Backend**.
@@ -18,19 +18,19 @@
 3. 在 Unity 中, 点击 **Assets** > **Import Package** > **Custom Package** 并且导航至 **XboxLive.unitypackage**.
 
 ## 将Visual Studio设置为 Unity 的默认IDE
-您需要 Visual Studio 来生成一个[Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp)游戏。您可以通过导航至 **Edit** > **Preferences** > **External Tools** 并设置**External Script Editor** 为 Visual Studio 来将你的Unity IDE 设置为 Visual Studio
+您需要 Visual Studio 来生成一个[Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp)游戏。您可以通过导航至 **Edit** > **Preferences** > **External Tools** 并设置**External Script Editor** 为 Visual Studio 来将您的Unity IDE 设置为 Visual Studio
 
 
 ![set VS External Tool](images/setVSExternalTool_small.gif)
 
 ## 授权 Xbox Live
-为了让您的Title可以和Xbox Live 交互，你需要对 Xbox Live 进行初始设置。利用 Xbox Live Association Wizard 你可以很轻松地在Unity 中实现这一点。
+为了让您的Title可以和Xbox Live 交互，您需要对 Xbox Live 进行初始设置。利用 Xbox Live Association Wizard 您可以很轻松地在Unity 中实现这一点。
 
 1. 在 **Xbox Live** 菜单中, 选择 **Configuration**.
 2. 在 **Xbox Live** 窗口中, 选择 **Run Xbox Live Association Wizard**.
-3. 在 **Associate Your Game with the Windows Store** 对话框中, 点击 **Next**,并且登陆你的Dev Center account
-4. 选择您想要和project关联的app, 然后点击 **Select**. 如果你没有看到的话, 请尝试点击 **Refresh**.
-5. 在点击后您将会看到 "This application is already Xbox Live enabled." . 如果没有的话，请在你的Xbox Live service中为您的 title 授权 xbox功能,然后再尝试这一步。
+3. 在 **Associate Your Game with the Windows Store** 对话框中, 点击 **Next**,并且登陆您的Dev Center account
+4. 选择您想要和project关联的app, 然后点击 **Select**. 如果您没有看到的话, 请尝试点击 **Refresh**.
+5. 在点击后您将会看到 "This application is already Xbox Live enabled." . 如果没有的话，请在您的Xbox Live service中为您的 title 授权 xbox功能,然后再尝试这一步。
    > 即使是 Creators Program,您依然可以通过点击 **Enable** 来为您的 Title 授权 Xbox Live 功能.
 6. 点击 **Continue** 来选择一个沙盒.
    > 对 ID@Xbox 开发者来说,请确认选择了发布的 Xbox Live的配置里的同一个沙盒。

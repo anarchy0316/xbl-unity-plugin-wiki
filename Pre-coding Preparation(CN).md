@@ -1,15 +1,15 @@
-在写任何代码之前，你必须在你的 service configuration portal 上设置一个新的 Title. 你可以在 [Xbox Live Service Configuration](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/xbox-live-service-configuration) 了解更多关于 service configuration 的信息
+在写任何代码之前，您必须在您的 service configuration portal 上设置一个新的 Title. 您可以在 [Xbox Live Service Configuration](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/xbox-live-service-configuration) 了解更多关于 service configuration 的信息
 
->如果你对 Xbox Live services 不太熟悉，请阅读 [Xbox Live documentation](https://docs.microsoft.com/windows/uwp/xbox-live).
+>如果您对 Xbox Live services 不太熟悉，请阅读 [Xbox Live documentation](https://docs.microsoft.com/windows/uwp/xbox-live).
 
 本节将介绍 **[Windows Dev Center](http://dev.windows.com/)** (也称为通用开发人员中心(Windows Dev Center)(UDC))上配置的 Title 所需的所有内容, 如何创建新项目，以及如何为 Xbox Live 测试做准备。
 
 > Note: 本节重点介绍在Windows开发人员中心进行配置。对于使用 [Xbox Development Portal (XDP)](http://xdp.xboxlive.com/) 的开发人员，请参阅 **TODO **。
 
 ## The Creators Program
-如果你是 Xbox Live Creators Program 的成员，请按照[Create a new Xbox Live Creators Program title and publish to the test environment](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/get-started-with-creators/create-and-test-a-new-creators-title)中的步骤操作。
+如果您是 Xbox Live Creators Program 的成员，请按照[Create a new Xbox Live Creators Program title and publish to the test environment](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/get-started-with-creators/create-and-test-a-new-creators-title)中的步骤操作。
 
-如果你已经创建了一个新的 title, 你接下来可以参考 [[Configure Xbox Live in Unity]].
+如果您已经创建了一个新的 title, 您接下来可以参考 [[Configure Xbox Live in Unity]].
 
 
 ## ID@Xbox program
@@ -29,7 +29,7 @@
 
 
 ### Enable Xbox Live services
-当你点击 **Services** 下的 **Xbox Live** 时，你将会看到如下的配置页面。
+当您点击 **Services** 下的 **Xbox Live** 时，您将会看到如下的配置页面。
 ![ID@Xbox configuration page](images/udc_id@xbox.png)
 
 如果没有，请联系 **TODO** ，提供您的 **Store ID**，您可以在  **App management** > **App identity** > **Store ID** 下找到您的 Store ID.
@@ -49,7 +49,7 @@
 
 
 #### 为开发环境沙盒创建测试账号
-你可以在你的开发沙盒中创建专有的测试账号。你你甚至可以一次创建多个测试账号。请访问 [Creating Test Accounts](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/xbox-live-test-accounts#creating-test-accounts) 以获取更多信息。
+您可以在您的开发沙盒中创建专有的测试账号。您甚至可以一次创建多个测试账号。请访问 [Creating Test Accounts](https://docs.microsoft.com/en-us/windows/uwp/xbox-live/xbox-live-test-accounts#creating-test-accounts) 以获取更多信息。
 
 
 ### 下一步
